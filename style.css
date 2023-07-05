@@ -1,0 +1,86 @@
+body {
+  font-family: "Dancing Script", cursive;
+}
+.jumbotron {
+  background-image: url(img/prewed.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  filter: grayscale(0.7);
+}
+
+#navlinks {
+  transition: 0.5s;
+}
+
+/* Font */
+
+.dancingscript {
+  font-family: "Dancing Script", cursive;
+}
+.abeezee {
+  font-family: "ABeeZee", sans-serif;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.jumbotron p {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1rem;
+}
+
+.jumbotron .lead::before,
+.jumbotron .lead::after {
+  content: "";
+  display: inline-block;
+  width: 150px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 10px;
+}
+
+.groom {
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+img.undangan {
+  filter: grayscale(0.7);
+}
+
+#galeri .container .card {
+  min-width: 20rem;
+  max-width: 20rem;
+  min-height: 23rem;
+  max-height: 23rem;
+}
+
+.card-overlay {
+  min-width: inherit;
+  min-height: inherit;
+  background-color: black;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#galeri .container .card:hover .card-overlay {
+  opacity: 0.3;
+}
+
+.caption-card {
+  letter-spacing: 2px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+#galeri .container .card:hover .caption-card {
+  color: rgb(255, 255, 255);
+}
