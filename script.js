@@ -9,7 +9,8 @@ tombol.addEventListener("click", function () {
 });
 
 function copied() {
-  const copy = "123456789";
+  const copy =
+    "Makasih ya, qil.. maaf kalo aku ada kata kata yang bikin kamu ga enak. Aku bakal fokus kesini dulu ya.";
   navigator.clipboard.writeText(copy);
 
   const copied = document.getElementById("nyalin");
