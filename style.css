@@ -8,6 +8,10 @@ body {
   filter: grayscale(0.7);
 }
 
+.transparan {
+  opacity: 0;
+}
+
 #navlinks {
   transition: 0.5s;
 }
